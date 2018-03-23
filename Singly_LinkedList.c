@@ -12,7 +12,7 @@ struct node{
 };
 
 int insert(struct node **, struct node **);
-int search(int, struct node **);
+void search(int, struct node **);
 struct node  *delete(struct node **);
 void display(struct node **);
 
@@ -144,7 +144,7 @@ void display(struct node **first)
     printf("X");
 }
 
-int search(int val, struct node **first)
+void search(int val, struct node **first)
 {
     struct node *ptr = *first;
     while(ptr != NULL)
