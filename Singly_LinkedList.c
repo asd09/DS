@@ -1,3 +1,7 @@
+/*
+ * Programmed by: Arup Sarkar
+ *
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
