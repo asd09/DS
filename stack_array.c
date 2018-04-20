@@ -64,7 +64,7 @@ int main()
 
 void push(int element)
 {
-    if(top == MAX)
+    if(top == MAX - 1)
     {
         printf("Stack OVERFLOW!");
         return;
